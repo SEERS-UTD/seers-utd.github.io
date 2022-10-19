@@ -1,0 +1,30 @@
+.seers-footer{
+	display: block;
+	height: 40px;
+	font-size: 12px;
+	background-color: #393939;
+	border-top: 2px solid #6E6E6E;
+	color: #E7E7E7;
+	width:100%;
+	max-width: 1024px;
+	bottom:0;
+	margin-top: 5px;
+	position: absolute;
+	margin-bottom: 10px;
+}
+.seers-footer > div{
+	position:relative;
+	display:block;
+	padding: 10px 10px 0px 10px;
+}
+.seers-footer .seers-f-location{
+	background-image: url(/resources/img/location-ico.png);
+	background-position: center left;
+	background-repeat: no-repeat;
+	height: 40px;
+	padding-left: 45px;
+	margin-left: 10px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}

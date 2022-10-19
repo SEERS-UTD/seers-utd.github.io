@@ -1,0 +1,92 @@
+/* header css */
+.seers-header{
+	background-color: #393939;
+	height: 45px;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index: 1;
+	max-width: 1024px;
+	border-bottom: 1px solid #6E6E6E;
+	overflow:hidden;
+}
+.icon-toggle-menu{
+	background-image: url(/resources/img/menu-ico.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 45px;
+	width: 45px;
+	display:block;
+	float:left;
+	transition: all 0.3s ease-in-out;
+	filter: invert(0);
+	-webkit-filter: invert(0);
+	-moz-filter: invert(0);
+	-o-filter: invert(0);
+	-ms-filter: invert(0);
+}
+.icon-toggle-menu:hover{
+	filter: invert(1);
+	-webkit-filter: invert(1);
+	-moz-filter: invert(1);
+	-o-filter: invert(1);
+	-ms-filter: invert(1);
+	cursor: pointer;
+}
+.seers-header > h2{
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+.seers-header > h2 > a > img{
+	padding-top: 15px;
+		width: 80%;
+		height: 80%;
+}
+.seers-header > p{
+	float: right;
+}
+
+/* icons */
+.ui-utd-logo{
+	transition-duration: 300ms;
+	transition-property: transform;
+	background-image: url(/resources/img/utd-logo.png);
+	width: 61px;
+	height: 29px;
+	display:block;
+	position: relative;
+	float: right;
+	margin: 0px 5px 0px 0px;
+}
+.ui-utd-logo:hover,.ui-utd-logo:active{
+	transform: scale(1.1);
+}
+.ui-twitter:hover,.ui-twitter:active{
+	transform: scale(1.1);
+}
+.ui-twitter{
+	transition-duration: 300ms;
+	transition-property: transform;
+	background-image: url(/resources/img/twitter.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 22px;
+	height: 29px;
+	display:block;
+	position: relative;
+	float: right;
+	margin: 0px 5px 0px 0px;
+}
+@media (min-width: 600px) {
+	.seers-header > h2 > a > img{
+		width: 80%;
+		height: 80%;
+	}
+	.seers-header{
+		height: 70px;
+	}
+	.icon-toggle-menu{
+		display:none;
+	}
+}

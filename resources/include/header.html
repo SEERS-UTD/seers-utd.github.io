@@ -1,0 +1,26 @@
+<div class="seers-header" >
+	<h2 class="">
+		<div id="toggle-menu" class="icon-toggle-menu"></div>
+		<a href="/home/" title="SEERS" class="" data-ajax="false"><img src="/resources/img/seers-logo.png" alt="SEERS"/></a>
+	</h2>
+	<p>
+		<a target="_blank" href="http://www.utdallas.edu/" title="UTD" class="ui-utd-logo" data-ajax="false"></a>
+		<a target="_blank" href="https://twitter.com/seersgroup" title="twitter" class="ui-twitter" data-ajax="false"></a>
+	</p>
+</div><!-- /header -->
+<script>
+	$(document).ready(function(){
+		$( "#toggle-menu" ).click(function() {
+			$( "#menu-panel" ).toggleClass("seer-menu-toggle");
+			$( "#menu-toggle-push" ).toggleClass("seers-menu-toggle-push-active");
+		});
+		$( "#menu-toggle-push" ).click(function() {
+			$( "#menu-panel" ).toggleClass("seer-menu-toggle");
+			$( "#menu-toggle-push" ).toggleClass("seers-menu-toggle-push-active");
+		});
+		$( "#close-toggle" ).click(function() {
+			$( "#menu-panel" ).toggleClass("seer-menu-toggle");
+			$( "#menu-toggle-push" ).toggleClass("seers-menu-toggle-push-active");
+		});
+	});
+</script>
